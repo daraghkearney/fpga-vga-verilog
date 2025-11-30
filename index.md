@@ -34,9 +34,12 @@ To create the Steve head, I modified the template’s ColourStripes module by re
 <img src="https://raw.githubusercontent.com/daraghkearney/fpga-vga-verilog/main/docs/assets/images/Steve8.jpeg">
 
 ### **Simulation**
-I simulated my updated design to verify that the pixel regions mapped correctly. The main thing to check was that the conditional blocks did not overlap or leave gaps. In the waveform, I inspected red, green, and blue outputs in areas corresponding to Steve’s eyes and mouth to confirm correct pixel colouring.
+I simulated my updated design to verify that the pixel regions mapped correctly. The main thing to check was that the conditional blocks did not overlap or leave gaps. In the waveform, I inspected red, green, and blue outputs in areas corresponding to Steve’s eyes and mouth to confirm correct pixel colouring. Here is my schematic: 
+<img src="https://raw.githubusercontent.com/daraghkearney/fpga-vga-verilog/main/docs/assets/images/Schematic.png">
 ### **Synthesis**
-The synthesis and implementation results for the Steve-head design were almost identical to the original template because the logic is still simple comparisons. Resource usage increased only slightly due to the larger number of if-else conditions. Timing remained well within constraints, and the design met the 25 MHz pixel-clock requirements.
+The synthesis and implementation results for the Steve-head design were almost identical to the original template because the logic is still simple comparisons. Resource usage increased only slightly due to the larger number of if-else conditions. Timing remained well within constraints, and the design met the 25 MHz pixel-clock requirements. Below is the synthesis device and schematic:
+<img src="https://raw.githubusercontent.com/daraghkearney/fpga-vga-verilog/main/docs/assets/images/SynthesisDevice.png">
+<img src="https://raw.githubusercontent.com/daraghkearney/fpga-vga-verilog/main/docs/assets/images/SynthesisSchematic.png">
 
 ### **Demonstration**
 Here is the final result of Minecraft Steve displayed on VGA!
