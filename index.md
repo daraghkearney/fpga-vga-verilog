@@ -31,12 +31,12 @@ Reference: [Minecraft Steve Texture](http://minecraft.fandom.com/wiki/Player).
 To create the Steve head, I modified the template’s ColourStripes module by replacing the simple stripes with many small row/col's to add rows aswell as columns corresponding to Steve's features: hair, skin, eyes, nose, and mouth.
 
 ### **Simulation**
-Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
+I simulated my updated design to verify that the pixel regions mapped correctly. The main thing to check was that the conditional blocks did not overlap or leave gaps. In the waveform, I inspected red, green, and blue outputs in areas corresponding to Steve’s eyes and mouth to confirm correct pixel colouring.
 ### **Synthesis**
 The synthesis and implementation results for the Steve-head design were almost identical to the original template because the logic is still simple comparisons. Resource usage increased only slightly due to the larger number of if-else conditions. Timing remained well within constraints, and the design met the 25 MHz pixel-clock requirements.
 
 ### **Demonstration**
-If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+Here is the final result of Minecraft Steve displayed on VGA!
 
 ## **More Markdown Basics**
 This is a paragraph. Add an empty line to start a new paragraph.
