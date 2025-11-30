@@ -28,7 +28,8 @@ My design idea was to replace the colour-stripe pattern with a pixel-based repre
 Reference: [Minecraft Steve Texture](http://minecraft.fandom.com/wiki/Player).
 
 ### **Code Adaptation**
-Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
+To create the Steve head, I modified the template’s ColourStripes module by replacing the simple stripes with many small row/col's to add rows aswell as columns corresponding to Steve's features: hair, skin, eyes, nose, and mouth.
+
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 ### **Synthesis**
