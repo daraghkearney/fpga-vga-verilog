@@ -7,9 +7,9 @@ categories: demo
 
 Welcome to my VGA design project! In this report, I walk through how I created a Minecraft Steve head using Verilog on the Basys3 board. I’ll show the set-up, simulation, synthesis, and how I adapted the template code into a working pixel-based design.
 
-## **Template VGA Design**
+## **VGA Design - Minecraft Steve Head**
 ### **Project Set-Up**
-Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
+This project uses a Basys3 FPGA board and Vivado to design and implement a VGA controller. The design flow consisted of creating a new RTL project, adding the VGA driver template files, writing additional modules, simulating them, and finally synthesising and implementing the design. Below is an example screenshot of the project summary window from my set-up.
 
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
 ### **Template Code**
