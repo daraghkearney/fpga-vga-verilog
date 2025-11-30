@@ -5,9 +5,7 @@ tags: fpga vga verilog
 categories: demo
 ---
 
-Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. 
-
-I am adding a test sentence here at 13:24 on 03/12/24.
+Welcome to my VGA design project! In this report, I walk through how I created a Minecraft Steve head using Verilog on the Basys3 board. I’ll show the set-up, simulation, synthesis, and how I adapted the template code into a working pixel-based design.
 
 ## **Template VGA Design**
 ### **Project Set-Up**
