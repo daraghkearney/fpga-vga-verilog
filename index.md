@@ -19,7 +19,7 @@ The original Verilog code provided in the template was designed to demonstrate h
 Simulation was carried out using Vivado’s built-in XSIM tool. I simulated the VGA timing module to check that everything behaved correctly. This step is essential because even a small timing error can break the display output. A screenshot of the waveform display is shown below.
 
 ### **Synthesis**
-The synthesis and implementation results for the Steve-head design were almost identical to the original template because the logic is still simple comparisons. Resource usage increased only slightly due to the larger number of if-else conditions. Timing remained well within constraints, and the design met the 25 MHz pixel-clock requirements.
+After confirming correct behaviour in simulation, the full design was synthesised and implemented on the Basys3. Vivado generated resource usage reports, timing summaries, and implementation floorplans. The design used only a small amount of LUTs and flip-flops since the logic is mostly simple comparisons.
 ### **Demonstration**
 Here is the result running on the Basys3 board—Minecraft Steve displayed on VGA!
 
@@ -30,7 +30,8 @@ Briefly show how you changed the template code to display a different image. Dem
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 ### **Synthesis**
-Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
+The synthesis and implementation results for the Steve-head design were almost identical to the original template because the logic is still simple comparisons. Resource usage increased only slightly due to the larger number of if-else conditions. Timing remained well within constraints, and the design met the 25 MHz pixel-clock requirements.
+
 ### **Demonstration**
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
 
