@@ -29,7 +29,9 @@ My design idea was to replace the colour-stripe pattern with a pixel-based repre
 Reference: [Minecraft Steve Texture](http://minecraft.fandom.com/wiki/Player).
 
 ### **Code Adaptation**
-To create the Steve head, I modified the template’s ColourStripes module by replacing the simple stripes with many small row/col's to add rows aswell as columns corresponding to Steve's features: hair, skin, eyes, nose, and mouth.
+To create the Steve head, I modified the template’s ColourStripes module by replacing the simple stripes with many small row/col's to add rows aswell as columns corresponding to Steve's features: hair, skin, eyes, nose, and mouth. Here are my progress pictures: 
+<img src="https://raw.githubusercontent.com/daraghkearney/fpga-vga-verilog/main/docs/assets/images/Steve2.jpeg"> <img src="https://raw.githubusercontent.com/daraghkearney/fpga-vga-verilog/main/docs/assets/images/Steve3.jpeg"> <img src="https://raw.githubusercontent.com/daraghkearney/fpga-vga-verilog/main/docs/assets/images/Steve4.jpeg"> <img src="https://raw.githubusercontent.com/daraghkearney/fpga-vga-verilog/main/docs/assets/images/Steve5.jpeg"> <img src="https://raw.githubusercontent.com/daraghkearney/fpga-vga-verilog/main/docs/assets/images/Steve6.jpeg"> <img src="https://raw.githubusercontent.com/daraghkearney/fpga-vga-verilog/main/docs/assets/images/Steve7.jpeg">
+<img src="https://raw.githubusercontent.com/daraghkearney/fpga-vga-verilog/main/docs/assets/images/Steve8.jpeg">
 
 ### **Simulation**
 I simulated my updated design to verify that the pixel regions mapped correctly. The main thing to check was that the conditional blocks did not overlap or leave gaps. In the waveform, I inspected red, green, and blue outputs in areas corresponding to Steve’s eyes and mouth to confirm correct pixel colouring.
