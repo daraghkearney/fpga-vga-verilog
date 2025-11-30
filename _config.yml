@@ -1,9 +1,9 @@
 # Site settings
 title: System-on-Chip Design & Verification
 author:
-  name: Michelle Lynch
-  email: your-email@domain.com
-description: "A blog."
+  name: Daragh Kearney
+  email: g00438215l@atu.ie
+description: "Minecraft Steve Blog."
 
 # Build settings
 remote_theme: jekyll/minima
