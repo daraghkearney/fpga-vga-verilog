@@ -23,8 +23,10 @@ After confirming correct behaviour in simulation, the full design was synthesise
 ### **Demonstration**
 Here is the result running on the Basys3 board—Minecraft Steve displayed on VGA!
 
-## **My VGA Design Edit**
-Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
+## **My VGA Design Edit - Minecraft Steve Head**
+My design idea was to replace the colour-stripe pattern with a pixel-based representation of Minecraft Steve’s face. I used online references to match the skin tones and colours to approximate Steve’s appearance.
+Reference: [Minecraft Steve Texture](http://minecraft.fandom.com/wiki/Player).
+
 ### **Code Adaptation**
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
 ### **Simulation**
