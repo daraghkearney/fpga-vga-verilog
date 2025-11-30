@@ -11,7 +11,7 @@ Welcome to my VGA design project! In this report, I walk through how I created a
 ### **Project Set-Up**
 This project uses a Basys3 FPGA board and Vivado to design and implement a VGA controller. The design flow consisted of creating a new project, adding the VGA driver template files, writing additional modules, simulating them, and finally synthesising and implementing the design. Below is a screenshot of the project summary window from my set-up.
 
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/DKPrjSum.png">
+<img src="https://raw.githubusercontent.com/daraghkearney/fpga-vga-verilog/main/docs/assets/images/DKPrjSum.png">
 ### **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
